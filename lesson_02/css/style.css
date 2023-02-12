@@ -1,0 +1,38 @@
+[class*="__container"] {
+max-width: 1000px;
+margin: 0 auto;
+}
+/******************************/
+.wrapper {
+}
+.header {
+}
+.header__container {
+}
+.header__title {
+   font-size: 24px;
+   font-weight: 700;
+   margin: 30px 0;
+}
+.title {
+}
+.page {
+}
+.page__title{
+
+}
+.page__container {
+}
+.page__content {
+}
+.page__list {
+}
+.page__item {
+   font-size: 16px;
+   font-weight: 400;
+   padding: 10px;
+}
+.page__item:hover{
+   color: #880441;
+   text-decoration: underline;
+}
