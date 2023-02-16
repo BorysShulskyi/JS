@@ -1,0 +1,36 @@
+[class*="__container"] {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+/******************************/
+body{
+   background-color:  #1263f8a1;
+}
+.wrapper {
+   padding: 20px 0;
+}
+.header__title {
+   text-align: center;
+}
+.title {
+   font-size: 32px;
+   font-weight: 700;
+   padding-bottom: 30px;
+}
+.page__list p{
+   padding-bottom: 50px;
+}
+.page__item{
+   padding-bottom: 50px;
+}
+.page__item span{
+   font-size: 24px;
+   font-weight: 700;
+   padding-bottom: 10px;
+   transition: color 0.3s ease 0s;
+}
+
+.page__item span:hover {
+   color: #e8e100;
+   text-shadow: 2px 2px 2px rgb(0, 0, 52);
+}
