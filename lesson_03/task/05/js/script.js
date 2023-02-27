@@ -9,15 +9,14 @@
     // 2. Виводимо результат
       switch (driverCategories) {
       case 'A':
-      document.write(`<div class="title">Водій може керувати мотоциклом.</div>`)
+      case 'a':      document.write(`<div class="title">Водій може керувати мотоциклом.</div>`)
       break;
       case 'B':
-      document.write(`<div class="title">Водій може керувати легковим автомобілем.</div>`)
+      case 'b':       document.write(`<div class="title">Водій може керувати легковим автомобілем.</div>`)
       break;
       case 'C':
-      document.write(`<div class="title">Водій може керувати вантажним автомобілем.</div>`)
+      case 'c':       document.write(`<div class="title">Водій може керувати вантажним автомобілем.</div>`)
       break;
-      default:
-      document.write(`<div class="title">Введіть правильно назву категорії водія (тільки А, В або С).</div>`)
+      default:       document.write(`<div class="title">Введіть правильно назву категорії водія (тільки А, В або С).</div>`)
       break;
       }

@@ -1,0 +1,74 @@
+[class*="__container"] {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/******************************/
+.body {
+  color: rgb(0, 0, 0);
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.header {
+  display: block;
+  background-color: #59b5f36e;
+}
+.header__text {
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page {
+  background-color: #fff56d6e;
+}
+.page__task {
+  max-width: 800px;
+  height: 100%;
+  margin: 0px auto;
+}
+.task li {
+  font-size: 18px;
+  text-align: start;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.task__lesson span {
+  font-size: 24px;
+  color: #7559f3;
+}
+.task li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.task__lesson {
+ 
+}
+
+.task__link:hover {
+  color: #7559f3;
+
+  text-decoration: underline;
+}
+
+.footer {
+  display: block;
+  background-color: #59b5f36e;
+}
+.footer__text {
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.title {
+  padding: 50px 0px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+
+}
